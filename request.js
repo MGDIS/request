@@ -23,7 +23,7 @@ var http = require('http')
   , OAuth = require('./lib/oauth').OAuth
   , Multipart = require('./lib/multipart').Multipart
   , Redirect = require('./lib/redirect').Redirect
-  , InitRequest = require('./lib/request/init')
+  , InitRequest = require('./lib/request-init')
 
 var safeStringify = helpers.safeStringify
   , md5 = helpers.md5
